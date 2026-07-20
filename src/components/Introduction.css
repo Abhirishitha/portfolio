@@ -1,0 +1,215 @@
+/* ===========================
+   Introduction Section
+=========================== */
+
+.introduction {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f5f5, #e9e9e9);
+  overflow: hidden;
+}
+
+/* ===========================
+   Container
+=========================== */
+
+.intro-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===========================
+   Main Box
+=========================== */
+
+.intro-box {
+  width: 85%;
+  max-width: 1050px;
+
+  min-height: 480px;
+
+  padding: 40px;
+
+  background: #ffffff;
+
+  border: 3px solid #800000;
+  border-radius: 10px;
+
+  box-shadow: 0 10px 25px rgba(128, 0, 0, 0.15);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.3s ease;
+}
+
+.intro-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(128, 0, 0, 0.25);
+}
+
+/* ===========================
+   Welcome Text
+=========================== */
+
+.static-text {
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  color: #333;
+
+  margin-bottom: 18px;
+}
+
+.step-into-text {
+  color: #333;
+}
+
+/* ===========================
+   Name
+=========================== */
+
+.animated-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10px 0 20px;
+}
+
+.name-line {
+  display: flex;
+  justify-content: center;
+}
+
+.name-line:first-child {
+  margin-bottom: 10px;
+}
+
+.animated-letter {
+  display: inline-block;
+
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+
+  color: #800000;
+
+  margin-right: 2px;
+
+  transition: 0.3s ease;
+}
+
+.animated-letter:hover {
+  transform: scale(1.2);
+  color: #e91e63;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.about-button {
+  margin: 20px 0;
+
+  padding: 12px 35px;
+
+  font-size: 1.1rem;
+  font-weight: bold;
+
+  color: #800000;
+
+  background: transparent;
+
+  border: 2px solid #800000;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.about-button:hover {
+  background: #800000;
+  color: white;
+}
+
+/* ===========================
+   Typewriter
+=========================== */
+
+.dynamic-role {
+  margin-top: 15px;
+}
+
+.dynamic-text {
+  font-size: 2.2rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+
+  color: #800000;
+
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media (max-width: 992px) {
+
+  .intro-box {
+    width: 92%;
+    padding: 30px;
+  }
+
+  .animated-letter {
+    font-size: 2.3rem;
+  }
+
+  .static-text {
+    font-size: 2rem;
+  }
+
+  .dynamic-text {
+    font-size: 1.7rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .intro-box {
+    width: 95%;
+    padding: 25px;
+    min-height: 420px;
+  }
+
+  .animated-letter {
+    font-size: 1.7rem;
+  }
+
+  .static-text {
+    font-size: 1.5rem;
+  }
+
+  .dynamic-text {
+    font-size: 1.3rem;
+  }
+
+  .about-button {
+    width: 170px;
+  }
+
+}
