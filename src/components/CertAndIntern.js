@@ -14,6 +14,8 @@ import c11Image from "../assets/c11.png";
 import c12Image from "../assets/c12.png";
 import c13Image from "../assets/c13.png";
 import c14Image from "../assets/c14.png";
+import c15Image from "../assets/c15.png";
+import c16Image from "../assets/c16.png";
 import intern1Image from '../assets/in1.png';
 import intern2Image from '../assets/in2.png';
 import intern3Image from '../assets/in3.png';
@@ -24,7 +26,7 @@ const CertAndIntern = () => {
       category: "NPTEL",
       subcategories: [
         { name: "Affective Computing", image: c1Image },
-        { name: "Foundations of AR and vR", image: c2Image },
+        { name: "Foundations of AR and VR", image: c2Image },
       ],
     },
     {
@@ -57,13 +59,20 @@ const CertAndIntern = () => {
       ],
     },
         {
-      category: "Celonis Ai",
+      category: "Celonis AI",
       subcategories: [
         { name: "AI Foundations", image: c13Image },
-             { name: "Get Data into Celnois", image: c14Image },
+             { name: "Get Data into Celonis", image: c14Image },
 
       ],
     },
+    {
+  category: "Altair",
+  subcategories: [
+    { name: "Machine Learning Professional", image: c15Image },
+    { name: "Applications & Use Cases Professional", image: c16Image },
+  ],
+},
     {
       category: "BodhaSoft",
       subcategories: [

@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 // Importing React icons
 import {
-  FaPython,
   FaJava,
+  FaPython,
+  FaJsSquare,
   FaHtml5,
   FaCss3Alt,
   FaReact,
+  FaNodeJs,
   FaDatabase,
   FaRobot,
-  FaNodeJs,
   FaGitAlt,
   FaGithub,
-  FaJsSquare
+  FaAws,
+  FaChartBar,
 } from "react-icons/fa";
 
 import { SiExpress, SiMongodb, SiTensorflow, SiTailwindcss } from "react-icons/si";
@@ -30,6 +32,7 @@ const Skills = () => {
 const skillsData = [
   { label: "Java", icon: <FaJava /> },
   { label: "Python", icon: <FaPython /> },
+  { label: "C", icon: <SiC /> },
   { label: "JavaScript", icon: <FaJsSquare /> },
   { label: "HTML5", icon: <FaHtml5 /> },
   { label: "CSS3", icon: <FaCss3Alt /> },
@@ -39,6 +42,12 @@ const skillsData = [
   { label: "MongoDB", icon: <SiMongodb /> },
   { label: "MySQL", icon: <FaDatabase /> },
   { label: "Machine Learning", icon: <FaRobot /> },
+  { label: "Scikit-learn", icon: <SiScikitlearn /> },
+  { label: "Pandas", icon: <SiPandas /> },
+  { label: "NumPy", icon: <SiNumpy /> },
+  { label: "OpenAI APIs", icon: <FaRobot /> },
+  { label: "AWS PartyRock", icon: <FaAws /> },
+  { label: "Altair AI Studio", icon: <FaChartBar /> },
   { label: "Git", icon: <FaGitAlt /> },
   { label: "GitHub", icon: <FaGithub /> },
 ];

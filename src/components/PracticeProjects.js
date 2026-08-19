@@ -7,7 +7,8 @@ import p7 from "../assets/p7.png";
 import p8 from "../assets/p8.png";
 import p9 from "../assets/p9.png";
 import p10 from "../assets/p10.png";
-
+import p11 from "../assets/p11.png";
+import p12 from "../assets/spotify-genre-classification.png";
 import "./PracticeProjects.css";
 
 const PracticeProjects = () => {
@@ -65,6 +66,24 @@ const projects = [
     "A premium productivity app featuring task management, planners, streak tracking, drag-and-drop support, and responsive design.",
   gitHubLink:
     "https://github.com/Abhirishitha/taskflow",
+},
+{
+  title: "Online Examination Portal",
+  image: p11,
+  techStack: "Java, MySQL, HTML, CSS, JavaScript",
+  description:
+    "A web-based examination platform that enables students to take online exams, manage questions, track exam progress, and receive results through an interactive interface.",
+  gitHubLink:
+    "https://github.com/Abhirishitha/online-examination-portal",
+},
+{
+  title: "Spotify Track Genre Classification",
+  image: p12,
+  techStack: "Python, Pandas, Scikit-learn, CatBoost",
+  description:
+    "Machine learning application that classifies Spotify tracks into music genres using audio features and a CatBoost model, achieving 74.04% accuracy.",
+  gitHubLink:
+    "https://github.com/Abhirishitha/Spotify-Track-Genre-Classification",
 },
 ];
 

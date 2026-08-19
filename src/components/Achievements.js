@@ -45,14 +45,14 @@ const achievementsData = [
     icon: <FaClipboardList />,
   },
   {
-    title: "LeetCode Weekly Contest 508",
-    description:
-      "Achieved Rank 154 in LeetCode Weekly Contest 508 by solving competitive programming problems under timed conditions.",
-    image: a5Image,
-    link: "#",
-    demoLink: "https://leetcode.com/",
-    icon: <FaTrophy />,
-  },
+  title: "Aspire For Her × Logitech Women Who Master Hackathon",
+  description:
+    "Shortlisted among the Top Scorers from 100K+ registrants nationwide and advanced to the Zonal Round. Developed VentureSakhi, an AI-powered application using AWS PartyRock.",
+  image: a4Image,
+  link: "https://partyrock.aws/u/abhirishitha/RJ237z_33/VentureSakhi",
+  demoLink: null,
+  icon: <FaClipboardList />,
+},
 ];
 
   const handleCardClick = (link) => {
